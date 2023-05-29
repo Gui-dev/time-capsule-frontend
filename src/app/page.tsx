@@ -11,8 +11,8 @@ export default function Home() {
         <div className="absolute right-0 top-1/2 h-[288px] w-[526px] -translate-y-1/2 translate-x-1/2 rounded-full bg-purple-700 opacity-50 blur-full" />
         <div className="absolute bottom-0 right-2 top-0 w-2 bg-stripes" />
 
-        <Link
-          href="/"
+        <a
+          href={`https://github.com/login/oauth/authorize?client_id=${process.env.NEXT_PUBLIC_GITHUB_CLIENT_ID}`}
           className="flex items-center gap-3 text-left transition-colors hover:text-gray-50"
         >
           <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-400">
@@ -22,7 +22,7 @@ export default function Home() {
             <span className="underline">Crie sua conta</span> e salve suas
             memórias
           </p>
-        </Link>
+        </a>
 
         <div className="space-y-5">
           <Image src={logo} alt="Time Capsule Logo" loading="lazy" />
