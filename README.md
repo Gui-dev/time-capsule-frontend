@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Time Capsule 💊
 
-## Getting Started
+<p>
+Cápsula do Tempo é um App que você pode colecionar momentos marcantes da sua jornada e compartilhar (se quiser) com o mundo
+</p>
 
-First, run the development server:
+# Screens
+
+<p align="center">
+  <img alt="Advanced Forms" src="./.screens/home.png" width="100%">
+  <img alt="Advanced Forms" src="./.screens/new.png" width="100%">
+  <img alt="Advanced Forms" src="./.screens/list.png" width="100%">
+</p>
+
+<p>
+  [✔] Social Authentication
+</p>
+<p>
+  [✔] Upload de arquivos
+</p>
+
+## Technologies used
+
+- [ReactJS](https://pt-br.reactjs.org)
+- [NextJS](https://nextjs.org)
+- [Typescript](https://www.typescriptlang.org)
+- [Tailwindcss](https://tailwindcss.com)
+
+## Requirements
+
+You need to install [Node.js](https://nodejs.org)
+
+## How to use it
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Install the dependencies
+$ git clone https://github.com/Gui-dev/time-capsule-frontend.git
+# Install the dependencies
+$ npm install
+# Run the web server
+$ npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The app will be available for access on your browser at (http://localhost:3000)
