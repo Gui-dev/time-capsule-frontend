@@ -16,7 +16,7 @@ Cápsula do Tempo é um App que você pode colecionar momentos marcantes da sua 
   [✔] Social Authentication
 </p>
 <p>
-  [✔] Upload de arquivos
+  [✔] File Uploads
 </p>
 
 ## Technologies used
@@ -33,7 +33,7 @@ You need to install [Node.js](https://nodejs.org)
 ## How to use it
 
 ```bash
-# Install the dependencies
+# Repository clone
 $ git clone https://github.com/Gui-dev/time-capsule-frontend.git
 # Install the dependencies
 $ npm install
